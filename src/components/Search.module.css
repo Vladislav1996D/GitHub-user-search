@@ -22,8 +22,12 @@
 .search_container input,
 .search_container button {
   padding: 0.6rem;
-  border-radius: 3px;
+  border-radius: 6px;
   border: none;
+}
+
+.search_container input {
+  background-color: rgb(206, 218, 243);
 }
 
 .search_container button {

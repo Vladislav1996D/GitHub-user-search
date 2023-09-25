@@ -3,5 +3,5 @@ export type UserProps = {
   login: string
   location: string
   bio: string
-  url: string
+  html_url: any
 }

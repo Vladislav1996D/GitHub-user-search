@@ -1,0 +1,45 @@
+.user {
+  background-color: #a1a9cd;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.user img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #7b84b0;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+}
+
+.info div {
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.info span:first-child {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(34, 67, 133);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-bottom: 1rem;
+}
+
+.location svg {
+  fill: rgb(34, 67, 133);
+  font-size: 1.5rem;
+}
